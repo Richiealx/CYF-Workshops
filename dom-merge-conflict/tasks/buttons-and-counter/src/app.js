@@ -3,7 +3,7 @@ function increment(node) {
   let current = node.textContent;
   node.textContent = Number(current) + 1;
 }
-
+// The function creates the app's DOM strucutre
 export function App() {
   const body = document.createElement("body");
 
